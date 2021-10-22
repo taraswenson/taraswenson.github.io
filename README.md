@@ -1,2 +1,2 @@
 # github.io
-Portfolio site
+Check out my portfolio at http://github.taraswenson.io
