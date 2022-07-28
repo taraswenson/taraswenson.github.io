@@ -128,7 +128,7 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 small {
@@ -189,8 +189,9 @@ figure {
 }
 
 img {
+  border: 1px solid rgb(99, 97, 97);
   vertical-align: middle;
-  border-style: none;
+  border-style: 3px solid rgb(36, 36, 36);
 }
 
 svg {
@@ -10042,7 +10043,7 @@ h3 {
   position: relative;
   display: block;
   max-width: 25rem;
-  border-radius: 0.5rem;
+  border-radius: 0rem;
   overflow: hidden;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -10186,11 +10187,22 @@ form .row:first-child .floating-label-form-group {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .video-container iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
