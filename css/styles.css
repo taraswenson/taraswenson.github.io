@@ -189,9 +189,9 @@ figure {
 }
 
 img {
-  border: 1px solid rgb(99, 97, 97);
+  border: 0.5px solid rgb(31, 45, 65);
   vertical-align: middle;
-  border-style: 3px solid rgb(36, 36, 36);
+  border-style: 3px solid rgb(31, 45, 65);
 }
 
 svg {
